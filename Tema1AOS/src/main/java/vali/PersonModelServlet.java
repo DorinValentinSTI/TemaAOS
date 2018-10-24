@@ -21,7 +21,7 @@ public class PersonModelServlet extends HttpServlet {
 		personTest = personTestDatabaseAccess.createOrUpdate(personTest);
 		//check in front-end if user is added
 		response.getWriter().write("<html>" + "<body>" + "Id: " + personTest.getId() + "</body>" + "</html>");
-		response.getWriter().flush();
+		
 	}
 	
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
