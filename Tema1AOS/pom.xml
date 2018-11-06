@@ -19,6 +19,7 @@
 			<scope>test</scope>
 		</dependency>
 		
+<<<<<<< HEAD
 		 <dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
@@ -33,6 +34,9 @@
 	      <version>9.4.12.v20180830</version>
 	    </dependency>
 	    
+=======
+		 
+>>>>>>> 403dacf5e4fdb8bc98e945a8f554f5719af3d8ae
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
