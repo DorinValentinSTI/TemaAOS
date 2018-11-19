@@ -1,0 +1,9 @@
+spring:
+
+  datasource:
+
+    url: jdbc:mysql://localhost:3306/personaos
+
+    username: root
+
+    password: 1q2w3e
